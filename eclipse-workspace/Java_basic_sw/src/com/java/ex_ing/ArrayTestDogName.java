@@ -25,6 +25,8 @@ public class ArrayTestDogName {
 //				break;
 //			}
 //				else가 있으면 제대로 나오지 않아서 블록처리.
+//				추가로 원인분석 해보기.
+			/// 
 			}
 		}
 		
