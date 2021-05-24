@@ -18,6 +18,7 @@ public class ArrayTestDogName {
 			
 			if(name.equals(krdog[i])) {
 				System.out.println("> " + endog[i]);
+				System.out.println();
 				break;
 			}
 	}
