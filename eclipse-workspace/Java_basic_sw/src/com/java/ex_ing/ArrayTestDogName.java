@@ -7,7 +7,7 @@ public class ArrayTestDogName {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
+	while(true) {	
 		String[] krdog = {"곰돌이","복돌이","흰둥이","깨소금","까만콩"};		
 		String[] endog = {"Bear","Gift","White","Sesami","Black"};
 		
@@ -20,6 +20,7 @@ public class ArrayTestDogName {
 				System.out.println("> " + endog[i]);
 				break;
 			}
+	}
 //			else {
 //				System.out.println("미등록");
 //				break;
