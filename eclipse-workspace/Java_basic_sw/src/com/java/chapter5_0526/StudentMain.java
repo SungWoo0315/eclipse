@@ -1,4 +1,4 @@
-package com.java.chapter5_7Day0526;
+package com.java.chapter5_0526;
 
 public class StudentMain {
 
