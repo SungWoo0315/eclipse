@@ -1,4 +1,4 @@
-package collection.arrylist;
+package collection.arraylist;
 
 import java.util.ArrayList;
 import collection.Member;
@@ -8,6 +8,11 @@ public class MemberArrayList {
 		
 	public MemberArrayList() {
 		arrayList = new ArrayList<Member>();
+	}
+	
+	// 412p, insertMember()
+	public void insertMember(Member member, int index) {
+		arrayList.add(index, member);
 	}
 	
 	public void addMember(Member member) {
