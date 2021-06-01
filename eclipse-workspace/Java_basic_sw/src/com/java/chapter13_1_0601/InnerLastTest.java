@@ -3,9 +3,6 @@ package com.java.chapter13_1_0601;
 // outer class 외부클래스 
 public class InnerLastTest {
 	
-	public InnerLastTest() {	
-	}
-	
 	Object o = new Object()	{
 		@Override
 		public String toString() {
@@ -14,8 +11,9 @@ public class InnerLastTest {
 		}
 	};
 	
-	public InnerLastTest
-		
+	public InnerLastTest() {
+		o.toString();
+	}
 	
 	// 익명 클래스 
 	Object method2() {
