@@ -265,17 +265,22 @@ public class ControlExample {
 		
 		System.out.println("--------if-else로 사용-------");
 		
-		int month1 = 2;
+		int month1 = 12;
 		String season1 = ""; // 봄, 여름, 가을, 겨울.
 		
-		if (month1 < 3) {
+		if (month1 < 3 || month1 == 12) {
 			season1 = "겨울";
-			System.out.println(month1 + "월은 " + season1 + " 입니다.");
-		} else (month1) {
+		
+		} else if (month1 < 6 && month1 > 2) {
 			season1 = "봄";
+			
+		} else if (month1 < 9 && month1 > 5) {
+			season1 = "여름";
+		} else {
+			season1 = "가을";
 		}
 		
-		
+		System.out.println(month1 + "월은 " + season1 + " 입니다.");
 		
 		
 		
