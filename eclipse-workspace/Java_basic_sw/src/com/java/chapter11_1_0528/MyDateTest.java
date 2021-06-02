@@ -14,8 +14,8 @@ class MyDate {
 	
 	@Override
 	public boolean equals(Object obj) {
-		MyDate d = (MyDate)obj;
-		if(this.day == date.day && this.month == date.month) {
+		MyDate date = (MyDate)obj;
+		if(this.day == date.day && this.month == date.month && this.year == date.year) {
 			return true;
 		} else
 			return false;
