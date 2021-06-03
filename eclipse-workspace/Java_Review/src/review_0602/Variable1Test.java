@@ -12,23 +12,19 @@ public class Variable1Test {
 	
 	
 	public static void main(String[] args) {
+		byte b = 127; // 8bit -> 1 부호
+		// 
+		double d1 = Double.MAX_VALUE;
+		double d2 = Double.MAX_VALUE + 2000.0 ;
+		double d3 = Double.MAX_VALUE * 1.2 ;
+		double d4 = Double.MAX_VALUE * 1000 ;
 		
-		int j = 100;
-		char c = 'a'; 
-		
-//		System.out.println(ch1);
-		System.out.println(k); 
-		
-		char ch2 = 'a'; // 선언!!
-		char ch3 = 'A'; // 65
-		
-		System.out.println(ch2);
-		System.out.println(ch3);
-		System.out.println(ll);
+		System.out.println(d1 + ": " + Double.toHexString(d1));
+		System.out.println(d2 + ": " + Double.toHexString(d2));
+		System.out.println(d3 + ": " + Double.toHexString(d3));
+		System.out.println(d4 + ": " + Double.toHexString(d4));
 	}
-
 }
-
 
 
 

@@ -1,0 +1,16 @@
+package review_0603;
+
+public class Employee {
+	String name; 
+	String grade;
+	
+	// defualt 생성자가 있거나
+	// public Emplyee() {
+//}
+	
+	public Employee(String n) {
+		this.name = n;
+	}
+	
+	
+}
