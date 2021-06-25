@@ -34,14 +34,22 @@ public class Test_01 {
 			    	  
 			    	
 		   	    
-		   	  int a=0, b=5;
-		      jump : for(; ; a++) {
-		            for(; ; --b) {
-		              if(a>b) break jump;
-		            }
-		      }
-		      System.out.println( a+b );   
+//		   	  int a=0, b=5;
+//		      jump : for(; ; a++) {
+//		            for(; ; --b) {
+//		              if(a>b) break jump;
+//		            }
+//		      }
+//		      System.out.println( a+b );   
 			    
+	    int a=1, b=5;
+	    jump : for(; ;) {
+	      a++;
+	          for(; ;) {
+	                if(a>--b) break jump;
+	          }
+	    }
+	    System.out.println( a+b );
 			    
 	}
 
