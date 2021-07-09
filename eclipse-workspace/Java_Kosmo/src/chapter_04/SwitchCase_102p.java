@@ -41,24 +41,24 @@ public class SwitchCase_102p {
 		 */
 		
 		// if-else문 으로 작성했을 때.
-		int ranking = 1;	// int형 변수 ranking 선언과 동시에 값1을 대입.
-		char medalColor;	// char형 변수 medalColor 선언만 함.  
+		int ranking = 1;			// int형 변수 ranking 선언과 동시에 값1을 대입.
+		char medalColor;			// char형 변수 medalColor 선언만 함.  
 		
-		if(ranking == 1 ) {		// 만약 ranking변수의 값이 1과 같다면 참. 아니면 거짓.
-			medalColor = 'G';	// 참일경우. medalColor 변수에 G 값을 대입하고 다음 수행문으로 넘어감.
+		if(ranking == 1 ) {			// 만약 ranking변수의 값이 1과 같다면 참. 아니면 거짓.
+			medalColor = 'G';		// 참일경우. medalColor 변수에 G 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else if(ranking == 2) {	// 위의 값이 거짓이고, ranking변수의 값이 2와 같다면 참. 아니면 거짓.
-			medalColor = 'S';	// 참일경우. medalColor 변수에 S 값을 대입하고 다음 수행문으로 넘어감.
+		else if(ranking == 2) {		// 위의 값이 거짓이고, ranking변수의 값이 2와 같다면 참. 아니면 거짓.
+			medalColor = 'S';		// 참일경우. medalColor 변수에 S 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else if(ranking == 3) {	// 위의 값이 거짓이고, ranking변수의 값이 3과 같다면 참. 아니면 거짓.
-			medalColor = 'B';	// 참일경우. medalColor 변수에 B 값을 대입하고 다음 수행문으로 넘어감.
+		else if(ranking == 3) {		// 위의 값이 거짓이고, ranking변수의 값이 3과 같다면 참. 아니면 거짓.
+			medalColor = 'B';		// 참일경우. medalColor 변수에 B 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else {					// 모든 조건을 만족하지 않을 경우.
-			medalColor = 'A';	// medalColor 변수에 A 값을 대입하고 다음 수행문으로 넘어감. 
+		else {						// 모든 조건을 만족하지 않을 경우.
+			medalColor = 'A';		// medalColor 변수에 A 값을 대입하고 다음 수행문으로 넘어감. 
 		}
 		
 		// switch-case문 으로 작성했을 때.
-		switch(ranking) {	// switch에서 ranking 변수의 값이.
+		switch(ranking) {			// switch에서 ranking 변수의 값이.
 		case 1 : medalColor = 'G';	// ranking 변수의 값이 1이면, 변수 medalColor에 G 대입하고,
 				 break;				// break;로 빠져나옴.
 		case 2 : medalColor = 'S';	// ranking 변수의 값이 2이면, 변수 medalColor에 S 대입하고,
