@@ -23,7 +23,7 @@ public class SwitchCase_102p {
 		
 		
 		// 조건연산자.
-		max = (a > b) ? a : b;	// a값이 b보다 크다가 참일 경우. a값을 max 변수에 대입. 거짓일경우 b값을 max변수에 대입.
+		max = (a > b) ? a : b;		// a값이 b보다 크다가 참일 경우. a값을 max 변수에 대입. 거짓일경우 b값을 max변수에 대입.
 		
 		System.out.println(max);	// 변수 max값을 출력.
 		System.out.println("===");	// 구분선.
