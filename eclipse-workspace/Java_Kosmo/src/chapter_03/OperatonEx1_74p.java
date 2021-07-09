@@ -42,7 +42,7 @@ public class OperatonEx1_74p {
 		
 		num = -num;	// num값을 음수로 바꾸어 다시 num값에 대입함.
 		System.out.println(num);	// num값이 음수로 나옴. -10 출력.
-		System.out.println("====");
+		System.out.println("====");	// 구분선.
 		
 		/*
 		 * <산술연산자> 73쪽
