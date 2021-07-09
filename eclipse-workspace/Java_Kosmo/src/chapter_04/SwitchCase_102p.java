@@ -16,10 +16,10 @@ public class SwitchCase_102p {
 		
 
 		// if - else 문.
-		if(a > b)	// 만약 a가 b보다 크면 (true)
-			max = a;	// 선언된 변수 max에 a값을 대입.
-		else	// 그렇지 않을경우	(false)
-			max = b;	// 선언된 변수 max에 b값을 대입.
+		if(a > b)			// 만약 a가 b보다 크면 (true)
+			max = a;		// 선언된 변수 max에 a값을 대입.
+		else				// 그렇지 않을경우	(false)
+			max = b;		// 선언된 변수 max에 b값을 대입.
 		
 		
 		// 조건연산자.
