@@ -47,13 +47,13 @@ public class SwitchCase_102p {
 		if(ranking == 1 ) {			// 만약 ranking변수의 값이 1과 같다면 참. 아니면 거짓.
 			medalColor = 'G';		// 참일경우. medalColor 변수에 G 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else if(ranking == 2) {		// 위의 값이 거짓이고, ranking변수의 값이 2와 같다면 참. 아니면 거짓.
+		else if(ranking == 2) {			// 위의 값이 거짓이고, ranking변수의 값이 2와 같다면 참. 아니면 거짓.
 			medalColor = 'S';		// 참일경우. medalColor 변수에 S 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else if(ranking == 3) {		// 위의 값이 거짓이고, ranking변수의 값이 3과 같다면 참. 아니면 거짓.
+		else if(ranking == 3) {			// 위의 값이 거짓이고, ranking변수의 값이 3과 같다면 참. 아니면 거짓.
 			medalColor = 'B';		// 참일경우. medalColor 변수에 B 값을 대입하고 다음 수행문으로 넘어감.
 		}
-		else {						// 모든 조건을 만족하지 않을 경우.
+		else {					// 모든 조건을 만족하지 않을 경우.
 			medalColor = 'A';		// medalColor 변수에 A 값을 대입하고 다음 수행문으로 넘어감. 
 		}
 		
