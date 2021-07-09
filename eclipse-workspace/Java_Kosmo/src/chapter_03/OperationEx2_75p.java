@@ -22,7 +22,7 @@ public class OperationEx2_75p {
 
 		int value = 10;	// int형 변수 value 선언과 동시에 값 10을 대입.
 		int num = ++value;	// value에서 1더한 만큼 값을 num 에 대입. 
-				//++가 왼쪽(피연산자 앞)에 있을땐 문장이 끝나기전에 값이 먼저 증가.
+					//++가 왼쪽(피연산자 앞)에 있을땐 문장이 끝나기전에 값이 먼저 증가.
 	}
 
 }
