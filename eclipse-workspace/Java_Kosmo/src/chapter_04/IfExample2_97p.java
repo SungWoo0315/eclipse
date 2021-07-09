@@ -4,7 +4,7 @@ public class IfExample2_97p {
 
 	public static void main(String[] args) {
 		
-		int age = 9;	// int형 변수 age선언과 동시에 값 9 대입(초기화).
+		int age = 9;	// int형 변수 age선언과 동시에 값 9 대입.(초기화)
 		int charge;	// int형 변수 charge 선언.(초기화 되지 않음)	
 		
 		if(age < 8) {	// 만약 age가 8미만이면~
