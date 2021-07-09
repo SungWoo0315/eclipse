@@ -33,16 +33,37 @@ public class OperatonEx1_74p {
 		 * 부호를 뜻하며 단항연산자로 사용.
 		 */
 		
+		int num = 10;	// int형 변수 num을 선언하고 10을 대입. 
 		
+		System.out.println(+num);	// 값 10이 그대로 출력.
+		System.out.println(-num);	// 값 10에 -가 들어가서 -10 출력. 그러나, num값이 바뀐것은 아님.
+		System.out.println(num);	// 값 10이 그대로 출력.
+		System.out.println("====");	// 구분선.
 		
-		int mathScore = 90;
-		int engScore = 70;
+		num = -num;	// num값을 음수로 바꾸어 다시 num값에 대입함.
+		System.out.println(num);	// num값이 음수로 나옴. -10 출력.
+		System.out.println("====");
+		
+		/*
+		 * <산술연산자> 73쪽
+		 * 
+		 * 덧셈(+)
+		 * 뺄셈(-)
+		 * 곱셈(*)
+		 * 나눗셈(/)
+		 * 나머지(%)	-- 나머지(%) 구하는 연산자 활용 예시 73쪽 읽어보기.
+		 * 
+		 * 산술연산자 우선순위. = 일반수학산술연산과 같다. 
+		 */
+		
+		int mathScore = 90;	// int형 mathScore 변수 선언, 값 90을 대입.
+		int engScore = 70;	// int형 engScore 변수 선언, 값 70을 대입.
 		
 		int totalScore = mathScore + engScore;	// mathScore 값과 engScore값을 더하고, totalScore 변수에 대입.
-		System.out.println(totalScore);
+		System.out.println(totalScore);	//totalScore 출력.
 		
-		double avgScore = totalScore / 2.0;
-		System.out.println(avgScore);
+		double avgScore = totalScore / 2.0;	// totalScore값에 2.0을 나누어 준 후. 선언된 double형 변수 avgScore에 연산 값을 대입.
+		System.out.println(avgScore);	// avgScore 출력.
 
 	}
 
