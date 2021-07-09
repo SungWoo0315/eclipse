@@ -24,6 +24,8 @@ public class IfExample1_94p {
 			System.out.println("학교에 다니지 않습니다");	// 이 문장을 수행.
 		}
 
+		// 결과값은 age변수가 7이므로 8보다 같거나 크지않기 때문에
+		// false로 판별되고 else부분의 "학교에 다니지 않습니다" 가 출력된다.
 	}
 
 }
