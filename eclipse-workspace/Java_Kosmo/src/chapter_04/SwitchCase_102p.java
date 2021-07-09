@@ -59,13 +59,13 @@ public class SwitchCase_102p {
 		
 		// switch-case문 으로 작성했을 때.
 		switch(ranking) {			// switch에서 ranking 변수의 값이.
-		case 1 : medalColor = 'G';	// ranking 변수의 값이 1이면, 변수 medalColor에 G 대입하고,
-				 break;				// break;로 빠져나옴.
-		case 2 : medalColor = 'S';	// ranking 변수의 값이 2이면, 변수 medalColor에 S 대입하고,
-				 break;				// break;로 빠져나옴.
-		case 3 : medalColor = 'B';	// ranking 변수의 값이 1이면, 변수 medalColor에 B 대입하고,
-				 break;				// break;로 빠져나옴.
-		default :					// ranking값과 일치하는 case가 없다면 default 수행.
+		case 1 : medalColor = 'G';		// ranking 변수의 값이 1이면, 변수 medalColor에 G 대입하고,
+				 break;			// break;로 빠져나옴.
+		case 2 : medalColor = 'S';		// ranking 변수의 값이 2이면, 변수 medalColor에 S 대입하고,
+				 break;			// break;로 빠져나옴.
+		case 3 : medalColor = 'B';		// ranking 변수의 값이 1이면, 변수 medalColor에 B 대입하고,
+				 break;			// break;로 빠져나옴.
+		default :				// ranking값과 일치하는 case가 없다면 default 수행.
 				 medalColor = 'A';	// 변수 medalColor에 A 대입.
 		}
 		System.out.println(ranking + "등 메달의 색깔은 " + medalColor + "입니다.");
