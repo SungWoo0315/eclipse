@@ -29,7 +29,7 @@ public class ExplicitConversion_68p {
 		
 		System.out.println(iNum3);	// 각각 명시적 형변환 후 dNum1 은 1, fNum2는 0으로 변환된 값을 더한 후 출력.
 		System.out.println(iNum4);	// 우선 dNum1과 fNum2가 묵시적형변환으로 더해진 후. int형으로 명시적 형변환을 함.  
-							// 1.2+0.9 = 2.2 이후 int형으로 형변환하여 결과값은 2가 나온다.
+						// 1.2+0.9 = 2.2 이후 int형으로 형변환하여 결과값은 2가 나온다.
 	}
 
 }
