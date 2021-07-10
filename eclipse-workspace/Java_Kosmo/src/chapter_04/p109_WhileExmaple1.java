@@ -45,7 +45,9 @@ public class p109_WhileExmaple1 {
 								// while문 한번 돌고나서 num++ => num = 9 에서 1증가.
 								// sum = 45 + 10
 								// while문 한번 돌고나서 num++ => num = 10 에서 1증가.
+			
 								// while문 조건식 num <= 10 에 부합되지 않아서 false. 
+								// 조건식이 참(true)인동안만 반복수행되기때문에.   
 								// 조건식을 만족하지 않게 되어서 반복문 종료.
 								// 최종적 sum 값은 55가 대입된다.
 			
