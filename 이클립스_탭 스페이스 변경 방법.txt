@@ -1,0 +1,17 @@
+이클립스 화면 탭 공백과 깃허브 탭 공백 차이가 있을경우 설정하는 방법.
+
+설정
+Windows - > Preferences 메뉴 선택
+General → Editors → Text Editor 선택
+tab width 를 확인한 후에  Insert spaces for tabs 체크
+Apply
+
+포맷터 설정
+Java → Code Style → Formatter 선택
+New 를 클릭해서 새로운 Formatter 생성
+Indentation → Tab Policy 를 Space Only 로 설정
+저장
+
+적용
+포맷팅할 소스 파일을 연 후에 Source → Format 선택
+전체 프로젝트를 Format 하려면 Package Explorer 의 루트에서 마우스 우클릭후 Source → Format 선택
