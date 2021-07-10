@@ -13,13 +13,13 @@ public class p116_NestedLoop {
 		int dan;          // int형 변수 dan을 선언만 함.
 		int times;        // int형 변수 times를 선언만 함.
 		
-		for(dan = 2; dan <= 9; dan++) {					// 변수 dan에 값 2를 대입하고 초기화.
-														// 변수 dan은 값이 2이므로, 조건식 dan <= 9 에 참.
-														// 조건식이 참이므로, 수행문으로 넘어간다.
+		for(dan = 2; dan <= 9; dan++) {                 // 변수 dan에 값 2를 대입하고 초기화.
+                                                        // 변수 dan은 값이 2이므로, 조건식 dan <= 9 에 참.
+                                                        // 조건식이 참이므로, 수행문으로 넘어간다.
 			
-			for(times = 1; times <= 9; times ++) {		// 변수 times에 값 1을 대입하고 초기화.
-														// 변수 times는 값이 1이므로, 조건식 times <= 9 참.
-														// 조건식이 참이므로, 수행문으로 넘어간다.
+			for(times = 1; times <= 9; times ++) {      // 변수 times에 값 1을 대입하고 초기화.
+                                                        // 변수 times는 값이 1이므로, 조건식 times <= 9 참.
+			                                            // 조건식이 참이므로, 수행문으로 넘어간다.
 				
 				System.out.println(dan + "X" + times + "=" + dan * times);      // 수행문에서 변수 dan의 값이 2이고, 변수 times의 값이 1이다.
 																				// 출력 결과는 2 X 1 = 2 * 1
