@@ -1,6 +1,6 @@
 package chapter_04;
 
-public class SwitchCase_102p {
+public class p102_SwitchCase {
 
 	public static void main(String[] args) {
 		
