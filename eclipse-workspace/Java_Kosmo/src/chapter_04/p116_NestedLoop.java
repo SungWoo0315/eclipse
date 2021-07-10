@@ -21,7 +21,7 @@ public class p116_NestedLoop {
 														// 변수 times는 값이 1이므로, 조건식 times <= 9 참.
 														// 조건식이 참이므로, 수행문으로 넘어간다.
 				
-				System.out.println(dan + "X" + times + "=" + dan * times);		// 수행문에서 변수 dan의 값이 2이고, 변수 times의 값이 1이다.
+				System.out.println(dan + "X" + times + "=" + dan * times);      // 수행문에서 변수 dan의 값이 2이고, 변수 times의 값이 1이다.
 																				// 출력 결과는 2 X 1 = 2 * 1
 																				// 2 X 1 = 2 가 출력된다.
 																				
