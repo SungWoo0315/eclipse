@@ -1,6 +1,6 @@
 package chapter_04;
 
-public class IfExample2_97p {
+public class p97_IfExample2 {
 
 	public static void main(String[] args) {
 		
