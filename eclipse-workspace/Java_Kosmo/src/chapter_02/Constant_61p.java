@@ -23,7 +23,7 @@ public class Constant_61p {
         System.out.println(MIN_NUM);    // 값을 출력
 
         
-//		MAX_NUM = 1000;	
+//      MAX_NUM = 1000;	
         // 오류남.
         // 상수는 값을 변경 할 수 없음. MAX_NUM은 위에서 선언과 동시에 값을 대입하여 초기화 했기 때문.
 
