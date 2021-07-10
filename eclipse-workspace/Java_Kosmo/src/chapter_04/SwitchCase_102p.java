@@ -70,6 +70,10 @@ public class SwitchCase_102p {
 		}
 		System.out.println(ranking + "등 메달의 색깔은 " + medalColor + "입니다.");
 		// switch-case문에서 대입된 값을 가진 ranking 변수와 medalColor 변수 출력.
+		
+		
+		// break;를 써주지 않으면 case를 만족해도 빠져나오지 않고 그 다음 case로 넘어간다.
+		
 
 	}
 
