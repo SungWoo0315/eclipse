@@ -21,8 +21,8 @@ public class Variable3_50p {
         // (-2,147,483,648~2,147,483,647)
 
         
-        short sVal = 10;        // 내부적으로 int형으로 변환
-        byte bVal = 20;         // 내부적으로 int형으로 변환
+        short sVal = 10;                // 내부적으로 int형으로 변환
+        byte bVal = 20;                 // 내부적으로 int형으로 변환
         System.out.println(sVal + bVal);
 
     }
