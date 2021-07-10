@@ -3,15 +3,15 @@ package chapter_04;
 public class p116_NestedLoop {
 
 	public static void main(String[] args) {
-
-		/*
-		 * <중첩된 반복문>
-		 * 
-		 * 반복문 안에 또다른 반복문을 중첩해서 사용하는 경우가 있다.
-		 */
+        
+        /*
+         * <중첩된 반복문>
+         * 
+         * 반복문 안에 또다른 반복문을 중첩해서 사용하는 경우가 있다.
+         */
 		
-		int dan;			// int형 변수 dan을 선언만 함.
-		int times;			// int형 변수 times를 선언만 함.
+		int dan;          // int형 변수 dan을 선언만 함.
+		int times;        // int형 변수 times를 선언만 함.
 		
 		for(dan = 2; dan <= 9; dan++) {					// 변수 dan에 값 2를 대입하고 초기화.
 														// 변수 dan은 값이 2이므로, 조건식 dan <= 9 에 참.
