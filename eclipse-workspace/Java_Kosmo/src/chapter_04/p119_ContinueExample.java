@@ -10,6 +10,8 @@ public class p119_ContinueExample {
          * 반복문 안에서 continue문을 만나면 이후의 문장은 수행하지 않고,
          * for문의 처음으로 돌아가 증감식을 수행한다.
          * 
+         * 특정 조건에서 수행하지 않고 건너뛰어야 할때 사용.
+         * 
          */
         
         int total = 0;  // int형 변수 total 선언과 동시에 값 0 대입.
