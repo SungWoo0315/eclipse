@@ -17,7 +17,7 @@ public class p116_NestedLoop {
                                                         // 변수 dan은 값이 2이므로, 조건식 dan <= 9 에 참.
                                                         // 조건식이 참이므로, 수행문으로 넘어간다.
 			
-			for(times = 1; times <= 9; times ++) {      // 변수 times에 값 1을 대입하고 초기화.
+	        for(times = 1; times <= 9; times ++) {      // 변수 times에 값 1을 대입하고 초기화.
                                                         // 변수 times는 값이 1이므로, 조건식 times <= 9 참.
 			                                            // 조건식이 참이므로, 수행문으로 넘어간다.
 				
