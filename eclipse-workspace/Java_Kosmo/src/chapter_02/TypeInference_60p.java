@@ -24,7 +24,7 @@ public class TypeInference_60p {
 
         str = "test";       // 다른문자열 대입 가능. 변수 str이 String형으로 사용되었기 때문.
 
-//		str = 3;        	// 변수 str이 String형으로 사용되어서 정수값을 넣을수 없다. 오류남.  
+//      str = 3;            // 변수 str이 String형으로 사용되어서 정수값을 넣을수 없다. 오류남.  
 
     }
 
