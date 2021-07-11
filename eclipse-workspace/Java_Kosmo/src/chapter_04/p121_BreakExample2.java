@@ -60,12 +60,12 @@ public class p121_BreakExample2 {
                                                     // 변수 sum 값이 100 보다 클때 false로 for반복문 종료.
                                                     // 증감식 num++ 수행하여 num값 1 증가. num = 14
                                                     // sum = 91 + 14 변수 sum에 105가 대입.
+                                                    // 증감식 num++ 를 수행. num = 15
                                                     // 조건식 sum < 100 에 105가 false 되고 
-                                                    // 증감식 num++ 를 수행.
                                                     // for반복문 빠져나온 후 그 다음 수행문 수행.
         }
         System.out.println("num : " + num);         // num값이 105가 될 당시의 14가 아닌,
-                                                    // for반복문 마지막에 증감식 num++ 가 수행되어져서 15가 출력됨.
+                                                    // for반복문 마지막에 증감식 num++ 가 먼저 수행되어져서 15가 출력됨.
 
         System.out.println("sum : " + sum);         // 마지막 sum 값 105가 출력됨.
     }
