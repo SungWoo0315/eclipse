@@ -2,9 +2,10 @@ package chapter_05;
 
 public class p129_Student {     // 접근제어자 : public 
                                 // 클래스를 만드는 예약어 : class
-                                // 클래스 이름
+                                // 클래스 이름 : p129_Student
                                 // 클래스 이름은 대문자로 시작한다. (coding convension)
     
+                                // 객체의 속성.
     int studentID;              // int형 변수 studentID(학번)를 선언            // 멤버변수
     String studentName;         // String형 변수 studentName(학생이름) 선언     // 멤버변수
     int grade;                  // int형 변수 grade(학년) 선언                  // 멤버변수
@@ -27,7 +28,25 @@ public class p129_Student {     // 접근제어자 : public
     /*
      * <클래스>
      * 
+     * 객체지향 프로그램은 클래스를 기반으로 프로그래밍한다.
      * 
+     * 클래스는 객체의 속성과 기능을 코드로 구현.
+     * 
+     * 객체를 클래스로 구현하는것을 '클래스를 정의한다'라고 표현 한다.
+     * 
+     * 클래스 속성은 특성이라고도 하며,
+     * 클래스 내부에 변수로 선언.
+     * 
+     * 이렇게 선언하는 클래스 속성을 '멤버변수'라고 한다.
+     */
+    
+    /*
+     * <클래스 정의하는 문법>
+     * 
+     * (접근제어자)class 클래스 이름 {
+     *      멤버변수;
+     *      메서드;
+     * }     
      */
     
 }
