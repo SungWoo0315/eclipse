@@ -38,6 +38,7 @@ public class p141_Student {
         return studentName;             // 자료형이 String인 studentName값 반환.
     }
     
+    // 142쪽
     public void setStudentName(String name) {   // 학생이름을 매개변수로 전달.
                                                 // 반환값이 없으므로 반환형은 void  
                                                 // setStudentName() 메서드는 Student 클래스를 사용하는 다른코드에서 
