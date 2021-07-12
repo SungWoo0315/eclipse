@@ -6,10 +6,10 @@ public class p129_Student {     // 접근제어자 : public
                                 // 클래스 이름은 대문자로 시작한다. (coding convension)
     
                                 // 객체의 속성.
-    int studentID;              // int형 변수 studentID(학번)를 선언            // 멤버변수
+    int studentID;              // int형 변수 studentID(학번)를 선언           // 멤버변수
     String studentName;         // String형 변수 studentName(학생이름) 선언     // 멤버변수
-    int grade;                  // int형 변수 grade(학년) 선언                  // 멤버변수
-    String address;             // String형 변수 address(사는곳) 선언           // 멤버변수
+    int grade;                  // int형 변수 grade(학년) 선언                 // 멤버변수
+    String address;             // String형 변수 address(사는곳) 선언          // 멤버변수
     
     
     /*
