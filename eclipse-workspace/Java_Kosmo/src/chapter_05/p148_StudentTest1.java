@@ -39,6 +39,13 @@ public class p148_StudentTest1 {
         
         student2.studentName = "안승연";                                           // 참조변수 student2를 사용하여 멤버변수 studentName에 값 "안승연"를 대입.
         System.out.println(student2.getStudentName());                             // 참조변수 student2를 사용하여 메서드 getStudentName()를 사용하여 출력.
+        
+        /*
+         * <인스턴스와 힙메모리>
+         * 
+         * 
+         * 
+         */
     }
 
 }
