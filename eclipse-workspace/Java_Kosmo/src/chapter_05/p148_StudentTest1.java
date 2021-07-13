@@ -43,9 +43,35 @@ public class p148_StudentTest1 {
         /*
          * <인스턴스와 힙메모리>
          * 
+         * new p144_Student()를 선언하면 p144_Student()가 생성되고,
+         * studentID, studentName 등 [멤버변수]를 가지고 있다.
          * 
+         * [멤버변수]의 저장할 공간이 [힙메모리](heap memory)이다.
          * 
+         * 클래스 생성자를 하나 호출하면 인스턴스가 [힙메모리]에 생성된다.
+         * 
+         * 위의 코딩에서는 생성된 클래스를 student1 변수에 대입하면 인스턴스가 저장된 메모리를 student1 변수가 가리킨다.
+         * student1변수는 [지역변수]이다.  
+         * 
+         * [지역변수]는 [스택메모리]에 생성.
+         * [인스턴스]는 [힙메모리]에 생성
+         * 
+         * => [지역변수] student1에 생성된 [인스턴스]를 대입하는것은,
+         *    student1에 [인스턴스]가 생성된 [힙메모리 주소]를 대입한다는 의미다.
+         * 
+         * 위의 코딩에서 생성된 두 인스턴스
+         * p144_Student student1 = new p144_Student(); 
+         * p144_Student student2 = new p144_Student();
+         * 는 
+         * 서로 각각 다른 메모리 공간을 차지한다.
+         * 
+         * student1.studentName 과
+         * student2.studentName 는
+         * 서로 다른값을 가지게 된다.
+         * 
+         * 이때문에 클래스에 선언한 멤버변수를 [인스턴스변수]라고도 한다.
          */
+        
     }
 
 }
