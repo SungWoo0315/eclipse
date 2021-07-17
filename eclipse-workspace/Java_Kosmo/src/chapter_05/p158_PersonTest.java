@@ -36,14 +36,23 @@ public class p158_PersonTest {
         
         
         
-        
-        p157_Person personLee = new p157_Person("이순신", 175, 75);
-        
-        
-        
-        
-        System.out.println("name값 확인 : " + personKim.name + " / " + personLee.name);
-        System.out.println("weight값 확인 : " +personKim.weight + " / " + personLee.weight);
+        // 매개변수가 있는 생성자를 사용.
+        // 인스턴스 변수 초기화와 동시에 클래스 생성.
+        p157_Person personLee = new p157_Person("이순신", 175, 75);     // 매개변수가 있는 생성자를 사용.
+                                                                       // 매개변수가 있는 생성자는
+                                                                       // 생성자 내부에서 변수를 초기화 할 수 있도록 구현되어 있다.
+                                                                       // 매개변수에 "이순신", 175, 75 을 대입.
+                                                                       // p157_Person.java 에서 매개변수가 있는 생성자 구현.
+                                                                       
+        // 각각 다른 생성자를 사용하여 대입한 각각의 인스턴스 변수값을 확인.                                                                
+        System.out.println("name값 확인 : " + personKim.name + " / " + personLee.name);             
+        System.out.println("weight값 확인 : " +personKim.weight + " / " + personLee.weight);       
+
+        /*
+         * [멤버 변수]를 외부 클래스에서 값을 지정하지 못하는 경우가 있다.
+         * 
+         * [매개변수]가 있는 생성자를 구현하고 이를 사용하는것이 편리하다.
+         */
     }
 
 }
