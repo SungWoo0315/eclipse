@@ -24,6 +24,8 @@ public class p154_Person {      // + p155 포함.
     float weight;           // float 형 변수 weight 선언     //멤버변수
     
     
+    //-------------------------- <155쪽> ------------------------------------  
+    
     public p154_Person() {}     // 디폴트 생성자 직접 추가
     
     public p154_Person(String pname) {      // 사람이름을 매개변수로 입력받아서 Person클래스를 생성하는 생성자
