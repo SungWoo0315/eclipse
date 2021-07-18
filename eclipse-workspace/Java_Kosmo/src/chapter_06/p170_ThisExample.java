@@ -1,6 +1,7 @@
 package chapter_06;
 
 class BirthDay {            // BirthDay 클래스 
+    
     int day;                // int형 변수 day 선언.      // 멤버변수
     int month;              // int형 변수 month 선언.    // 멤버변수
     int year;               // int형 변수 year 선언.     // 멤버변수
