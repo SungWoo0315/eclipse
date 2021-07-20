@@ -40,8 +40,13 @@ class Person {      // Person 클래스.
     }
     
     Person(String name, int age){       // 매개변수를 가지는 생성자.
-        this.name = name;
-        this.age = age;
+        
+        this.name = name;               // this.name 는 동적 메모리에 생성된 인스턴스의 name 변수 위치를 가리키고,
+                                        // 그 위치에 매개변수 name값을 넣어준다.
+        
+        this.age = age;                 // this.age 는 동적 메모리에 생성된 인스턴스의 age 변수 위치를 가리키고,
+                                        // 그 위치에 매개변수 age값을 넣어준다.
+        
     }
 }
 
@@ -50,10 +55,11 @@ public class p172_CallAnotherConst {
 
     public static void main(String[] args) {
         
-        Person noName = new Person();
+        Person noName = new Person();           // Person 클래스자료형으로 [참조변수] noName 선언하고, 
+                                                // new 예약어로 Person() 생성자 호출하여 대입.
         
-        System.out.println(noName.name);
-        System.out.println(noName.age);
+        System.out.println(noName.name);        // 인스턴스 변수 noName.name 값 출력.
+        System.out.println(noName.age);         // 인스턴스 변수 noName.age 값 출력.
         
     }
 
