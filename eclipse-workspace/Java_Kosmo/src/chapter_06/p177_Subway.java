@@ -25,6 +25,7 @@ public class p177_Subway {
     
     public void showInfo() {                    // 리턴값이 없는 showInfo() 메서드
                                                 // 지하철 정보를 출력.  
+        
         System.out.println(lineNumber + " 의 승객은 " + passengerCount + " 명이고, 수입은 " + money + " 원 입니다.");
         // 지하철노선과 승객수, 수입액을 출력.  
     }
