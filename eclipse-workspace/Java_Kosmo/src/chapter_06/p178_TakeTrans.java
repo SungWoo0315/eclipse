@@ -19,7 +19,9 @@ public class p178_TakeTrans {
         
         bus100.showInfo();                                         // bus100 의 정보 출력.
 
+        
         System.out.println();                                      // 한줄 띄우기.
+        
         
         p177_Subway subwayGreen = new p177_Subway("2호선");        // 지하철 subwayGreen 인스턴스 생성.
        
