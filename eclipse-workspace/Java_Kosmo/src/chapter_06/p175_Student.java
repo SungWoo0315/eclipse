@@ -18,8 +18,10 @@ public class p175_Student {         // 학생 클래스 구현하기.
     
     public void takeBus(p177_Bus bus) {             // 메서드 구현,
                                                     // 버스를 타면 요금을 지불하는 기능구현.
+                                                    // takeBus() 메서드를 수행하면 p177_Bus 클래스의 메서드 take(1000)를 수행함과 동시에
+                                                    // this.money -= 1000; 로 인스턴스의 money 변수에 1000원을 줄어들게 한다.
         
-        bus.take(1000);                             // 
+        bus.take(1000);                             // bus 의 메서드 take() 에 매개변수 값 1000 대입하고 수행.
         
         this.money -= 1000;                         // this.money = this.money - 1000 
                                                     // 학생이 가진 돈이 1000원 만큼 줄어든다.
@@ -28,8 +30,10 @@ public class p175_Student {         // 학생 클래스 구현하기.
     
     public void takeSubway(p177_Subway subway) {    // 메서드 구현,
                                                     // 지하철을 타면 요금을 지불하는 기능구현.
+                                                    // takeSubway() 메서드를 수행하면 p177_Subway 클래스의 메서드 take(1500) 수행함과 동시에
+                                                    // this.money -= 1500; 로 인스턴스 money 변수에 1500원을 줄어들게 한다.
         
-        subway.take(1500);                          // 
+        subway.take(1500);                          // subway의 메서드 take() 에 매개변수 값 1500을 대입하고 수행.
         
         this.money -= 1500;                         // this.money = this.money - 1500 
                                                     // 학생이 가진 돈이 1500원 만큼 줄어든다.
