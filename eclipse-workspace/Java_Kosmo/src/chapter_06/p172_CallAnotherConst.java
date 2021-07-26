@@ -10,7 +10,7 @@ package chapter_06;
      * 
      */
 
-class Person1 {      // Person 클래스.
+class Person1 {     // Person 클래스.
                     // Person 클래스에 
                     // Person() 디폴트 생성자, 
                     // 매개변수를 가지는 Person(String, int) 생성자가 있다.
@@ -18,7 +18,7 @@ class Person1 {      // Person 클래스.
     String name;    // String형 변수 name 선언.
     int age;        // int 형 변수 age 선언.
     
-    Person1() {      // 디폴트 생성자.
+    Person1() {     // 디폴트 생성자.
         
         //this.name = "noname";     
         
@@ -39,7 +39,7 @@ class Person1 {      // Person 클래스.
         this("이름없음", 1);        // this를 사용해 Person(String, int) 생성자 호출
     }
     
-    Person1(String name, int age){       // 매개변수를 가지는 생성자.
+    Person1(String name, int age){      // 매개변수를 가지는 생성자.
         
         this.name = name;               // this.name 는 동적 메모리에 생성된 인스턴스의 name 변수 위치를 가리키고,
                                         // 그 위치에 매개변수 name값을 넣어준다.
