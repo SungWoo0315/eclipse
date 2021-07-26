@@ -16,18 +16,29 @@ public class p175_Student {         // 학생 클래스 구현하기.
                                                                 // 그 위치에 매개변수 money 값을 넣어준다.
     }
     
-    public void takeBus(p177_Bus bus) {             // 메서드 구현
-        bus.take(1000);
+    public void takeBus(p177_Bus bus) {             // 메서드 구현,
+                                                    // 버스를 타면 요금을 지불하는 기능구현.
+        
+        bus.take(1000);                             // 
+        
         this.money -= 1000;                         // this.money = this.money - 1000 
+                                                    // 학생이 가진 돈이 1000원 만큼 줄어든다.
+                                                    
     }
     
-    public void takeSubway(p177_Subway subway) {    // 메서드 구현
-        subway.take(1500);
-        this.money -= 1500;
+    public void takeSubway(p177_Subway subway) {    // 메서드 구현,
+                                                    // 지하철을 타면 요금을 지불하는 기능구현.
+        
+        subway.take(1500);                          // 
+        
+        this.money -= 1500;                         // this.money = this.money - 1500 
+                                                    // 학생이 가진 돈이 1500원 만큼 줄어든다.
     }
     
-    public void showInfo() {                        // 메서드 구현
-        System.out.println(studentName + " 님의 남은돈은 " + money + " 원 입니다.");
+    public void showInfo() {                        // 메서드 구현,
+                                                    // 학생 정보를 출력해준다.  
+        
+        System.out.println(studentName + " 님의 남은돈은 " + money + " 원 입니다.");  // 학생 이름과 잔액을 출력.  
     }
     
     
