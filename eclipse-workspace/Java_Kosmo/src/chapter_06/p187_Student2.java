@@ -2,9 +2,10 @@ package chapter_06;
 
 public class p187_Student2 {
 
-    public static int serialNum = 1000;     // static 변수 serialNum 선언과 동시에 값 1000 대입.
+    private static int serialNum = 1000;     // static 변수 serialNum 선언과 동시에 값 1000 대입.
+                                             // private 변수로 변경.  
     
-    // p184_Student1 클래스의 속성변수들 선언.  
+    // p187_Student2 클래스의 속성변수들 선언.  
     public int studentID;
     public String studentName;
     public int grade;
@@ -36,8 +37,21 @@ public class p187_Student2 {
         
     }
     
+    /*
+     * <클래스 메서드> = static 메서드
+     * 
+     * static 변수를 위한 메서드.
+     * 
+     * 외부 클래스에서 참조하지 못하도록,
+     * 
+     * 위의 변수 serialNum 을 private 로 바꾸어줌.  
+     * 
+     * 아래와 같이 get, set 메서드를 작성. 
+     * 
+     */
     
-    public static int getSerialNum() {
+    
+    public static int getSerialNum() {                  // serialNum의 get() 메서드
         
         int i = 10;
         
@@ -45,11 +59,20 @@ public class p187_Student2 {
         
     }
     
-    public static void setSerialNum(int serialNum) {
+    public static void setSerialNum(int serialNum) {    // serialNum의 set() 메서드
         
-        p187_Student2.serialNum = serialNum;
+        p187_Student2.serialNum = serialNum;            // 클래스 p187_Student2 이름으로 serialNum 변수를 참조 후,
+                                                        // 매개 변수로 받은 int형 serialNum을 대입.     
         
     }
+    
+    /*
+     * 외부 클래스에서 serialNum 값을 사용하려면 get메서드 호출 해야하고,
+     * 
+     * serialNum 변수 값을 변경하려면 set 메서드를 사용하여 매개변수로 int serialNum 을 주어야
+     * 
+     * 변경이 가능하다.  
+     */
 
     
 }
