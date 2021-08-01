@@ -6,6 +6,9 @@ public class p209_BookArray2 {
         
         p207_Book[] library = new p207_Book[5];         // p207_Book 클래스형으로 library 객체배열 생성.  
         
+        
+        // 인스턴스 생성 후, 각 배열에 저장.  
+        
         library[0] = new p207_Book("태백산맥", "조정래");
         library[1] = new p207_Book("데미안", "헤르만 헤세");
         library[2] = new p207_Book("어떻게 살 것인가", "유시민");
