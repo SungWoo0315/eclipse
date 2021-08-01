@@ -22,7 +22,7 @@ public class p204_ArrayTest2 {
         for (int i = 0; i < data.length; i++) {         // i 가 0부터 data 배열 길이만큼 
                                                         // 1씩 증가하면서 반복문 실행.
             
-            System.out.println(data[i]);                // 반복문 실행할때마다 data[i] 값을 출력.  
+            System.out.println(  data[i]  );                // 반복문 실행할때마다 data[i] 값을 출력.  
             
             /*
              * 출력 결과를 보면, 첫번째부터 세번째 입력 값이 출력되고,
