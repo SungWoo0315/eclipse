@@ -1,0 +1,23 @@
+package chapter_07;
+
+public class p204_ArrayTest2 {
+
+    public static void main(String[] args) {
+        
+        double[] data = new double [5];
+        
+        
+        data[0] = 10.0;
+         
+        data[1] = 20.0;
+        
+        data[2] = 30.9;
+        
+        
+        for (int i = 0; i < data.length; i++) {
+            System.out.println(data[i]);
+        }
+
+    }
+
+}
