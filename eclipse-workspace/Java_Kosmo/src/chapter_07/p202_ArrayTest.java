@@ -22,6 +22,7 @@ public class p202_ArrayTest {
             
         }
         
+        // 1분 복습. 배열 모든요소 합 계산.  
         System.out.println("반복문의 총 합은 : " + sum);
         
     }
