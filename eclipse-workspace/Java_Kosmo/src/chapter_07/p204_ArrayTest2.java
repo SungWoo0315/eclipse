@@ -1,6 +1,6 @@
 package chapter_07;
 
-public class p204_ArrayTest2 {
+public class p204_ArrayTest2 {  
 
     public static void main(String[] args) {
         

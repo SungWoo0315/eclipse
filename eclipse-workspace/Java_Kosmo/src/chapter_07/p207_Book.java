@@ -1,6 +1,6 @@
 package chapter_07;
 
-public class p207_Book {              // 책이름과 저자를 멤버변수로 가지는 클래스.
+public class p207_Book {              // 책이름과 저자를 멤버변수로 가지는 클래스.  
 
     private String bookName;
     private String author;

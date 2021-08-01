@@ -1,6 +1,6 @@
 package chapter_07;
 
-public class p208_BookArray {
+public class p208_BookArray {  
 
     public static void main(String[] args) {
 

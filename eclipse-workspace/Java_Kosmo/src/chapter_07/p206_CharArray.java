@@ -1,6 +1,6 @@
 package chapter_07;
 
-public class p206_CharArray {
+public class p206_CharArray {  
 
     public static void main(String[] args) {
 
