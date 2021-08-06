@@ -17,17 +17,17 @@ public class p209_BookArray2 {
         library[3] = new p207_Book("토지", "박경리");
         library[4] = new p207_Book("어린왕자", "생택쥐페리");
 
-        for (int i = 0; i < library.length; i++) {      // 반복문으로 library 길이만큼 반복.
+        for (int i = 0; i < library.length; i++) {              // 반복문으로 library 길이만큼 반복.
 
-            library[i].showBookInfo();              // 반복문으로 책 이름과 저자를 출력하는 showBookInfo() 메서드 실행.
+            library[i].showBookInfo();                          // 반복문으로 책 이름과 저자를 출력하는 showBookInfo() 메서드 실행.
         }
         
             System.out.println("---------------------------");  // 행 구분 처리.  
         
-        for (int i = 0; i < library.length; i++) {      // 반복문으로 library 길이만큼 반복.
+        for (int i = 0; i < library.length; i++) {              // 반복문으로 library 길이만큼 반복.
             
-            System.out.println(library[i]);         // library[i] 출력, 각 요소에는 p207_Book 인스턴스 주소값이 저장되어 있다.
-                                                    // 각 인스턴스 주소값이 출력된다. 
+            System.out.println(library[i]);                     // library[i] 출력, 각 요소에는 p207_Book 인스턴스 주소값이 저장되어 있다.
+                                                                // 각 인스턴스 주소값이 출력된다. 
         }
 
     }
