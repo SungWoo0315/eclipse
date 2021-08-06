@@ -38,13 +38,35 @@ public class p212_ArrayCopy {
                                                     // 정수 5개를 저장할 배열 선언하고, 각 요소를 1, 2, 3, 4, 5 값으로 초기화.
        
         
-        System.arraycopy(array1, 0, array2, 1, 4);  // 
+        System.arraycopy(array1, 0, array2, 1, 4);  // 복사할 배열이름               array1
+                                                    // 복사할 배열의 첫번째 위치는   [0]
+                                                    // 붙여넣을 배열 이름            array2
+                                                    // 붙여넣기를 시작할 첫번째 위치 [1]
+                                                    // 복사할 요소 개수               4
         
         
         
-        for (int i = 0; i < array2.length; i++) {
+        for (int i = 0; i < array2.length; i++) {   // for 반복문으로 0부터 시작해서 array2 길이만큼 반복, i 1씩 증가.  
         
-            System.out.println(array2[i]);
+            System.out.println(array2[i]);          // array2 의 인덱스[i] 를 반복하면서 출력.
+            
+            /*
+             * 결국, 콘솔창에서는 array2 의 결과값은.
+             * 
+             * 1, 10, 20, 30, 40 
+             * 
+             * 이다.
+             * 
+             * array2 의 
+             * [1]위치부터 4개가 복사되었기 때문.  
+             * 
+             * 
+             * <주의> 
+             * 
+             * 복사할 배열요소 개수가 대상배열의 전체길이보다 같거나 같아야 한다.
+             * 
+             * 복사할 요소의 개수가 대상배열 전체길이보다 크면 오류가 난다.  
+             */
             
             
         }
