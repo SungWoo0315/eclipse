@@ -27,12 +27,18 @@ public class p212_ArrayCopy {
          */
 
 
-        int[] array1 = {10, 20, 30, 40, 50};
-        int[] array2 = {1, 2, 3, 4, 5};
+        int[] array1 = {10, 20, 30, 40, 50};        // int 형 요소 로 선언한 변수 array1 에,                                                                                                     // int 형 요소 10개인 배열 생성.  
+                                                    // new int[] 배열생성 생략.// 배열개수 생략,  // but, 배열 자료형 따로 먼저 선언하면 생략 불가.  
+                                            
+                                                    // 정수 5개를 저장할 배열 선언하고, 각 요소를 10, 20, 30, 40, 50 값으로 초기화.
+                                                    
         
+        
+        int[] array2 = {1, 2, 3, 4, 5};             // int 형 요소 로 선언한 변수 array2 에,      
+                                                    // 정수 5개를 저장할 배열 선언하고, 각 요소를 1, 2, 3, 4, 5 값으로 초기화.
        
         
-        System.arraycopy(array1, 0, array2, 1, 4);
+        System.arraycopy(array1, 0, array2, 1, 4);  // 
         
         
         
